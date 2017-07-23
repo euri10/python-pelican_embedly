@@ -10,6 +10,7 @@ HTML = [
     b"<h4><a href='http://example.com'>myTitle</a></h4>",
 ]
 
+# TODO add parametrized pytest
 
 def test_directive():
     directives.register_directive('embedly-card', EmbedlyCard)
