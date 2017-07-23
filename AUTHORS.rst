@@ -2,4 +2,4 @@
 Authors
 =======
 
-* benoit barthelet - https://blog.ionelmc.ro
+* benoit barthelet -
