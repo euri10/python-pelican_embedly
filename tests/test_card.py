@@ -12,6 +12,7 @@ HTML = [
 
 # TODO add parametrized pytest
 
+
 def test_directive():
     directives.register_directive('embedly-card', EmbedlyCard)
     d = '.. embedly-card:: http://example.com\n\t:title: myTitle\n\t:align: left\n\t'
