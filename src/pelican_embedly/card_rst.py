@@ -81,7 +81,7 @@ class EmbedlyCard(Directive):
         if 'key' in self.options:
             data_card_key = self.options['key']
 
-        linkHTML = "<blockquote class='embedly-card' data-card-via='{via}' data-card-chrome='{chrome}' data-card-theme='{theme}' data-card-image='{image}' data-card-embed='{embed}' data-card-controls='{controls}' data-card-width='{width}' data-card-align='{align}' data-card-recommand='{recommand}' data-card-key='{key}'><h4><a href='{url}'>{title}</a></h4><p>{description}</p></blockquote>".format(url=url, title=title, description=description, via=data_card_via, chrome=data_card_chrome, theme=data_card_theme, image=data_card_image, embed=data_card_embed, controls=data_card_controls, width=data_card_width, align=data_card_align, recommand=data_card_recommend, key=data_card_key)  # noqa
+        linkHTML = "<blockquote class='embedly-card' data-card-via='{via}' data-card-chrome='{chrome}' data-card-theme='{theme}' data-card-image='{image}' data-card-embed='{embed}' data-card-controls='{controls}' data-card-width='{width}' data-card-align='{align}' data-card-recommend='{recommend}' data-card-key='{key}'><h4><a href='{url}'>{title}</a></h4><p>{description}</p></blockquote>".format(url=url, title=title, description=description, via=data_card_via, chrome=data_card_chrome, theme=data_card_theme, image=data_card_image, embed=data_card_embed, controls=data_card_controls, width=data_card_width, align=data_card_align, recommend=data_card_recommend, key=data_card_key)  # noqa
 
         scriptHTML = """
             <script>
