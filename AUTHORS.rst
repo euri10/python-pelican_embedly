@@ -2,4 +2,4 @@
 Authors
 =======
 
-* benoit barthelet -
+* benoit barthelet

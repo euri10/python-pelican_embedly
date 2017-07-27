@@ -1,10 +1,8 @@
 import pytest
 from docutils.core import publish_string
 from docutils.parsers.rst import directives
-from pelican_embedly.card_rst import EmbedlyCard
 
-# TEST_DIR = os.path.dirname(__file__)
-# DATA_PATH = os.path.join(TEST_DIR, 'data')
+from pelican_embedly.card_rst import EmbedlyCard
 
 HTML = [
     b"<blockquote class='embedly-card' data-card-via='' data-card-chrome='0' data-card-theme='light' data-card-image='' data-card-embed='' data-card-controls='1' data-card-width='' data-card-align='left' data-card-recommend='1' data-card-key=''>",  # noqa
@@ -24,17 +22,6 @@ def test_directive_simple():
             passed = False
             break
     assert passed
-
-
-datacards = []
-
-
-@pytest.fixture()
-def class_options():
-    options = {k: k for k in EmbedlyCard.option_spec.keys()}
-    options.pop('align', None)
-    options.pop('theme', None)
-    return options
 
 
 @pytest.mark.parametrize("url", ['http://embed.ly', ])
