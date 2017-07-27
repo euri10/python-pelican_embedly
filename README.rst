@@ -14,7 +14,6 @@ Overview
         | |codecov|
     * - package
       - | |version| |wheel| |supported-versions| |supported-implementations|
-        | |commits-since|
 
 .. |docs| image:: https://readthedocs.org/projects/python-pelican_embedly/badge/?style=flat
     :target: https://readthedocs.org/projects/python-pelican_embedly
