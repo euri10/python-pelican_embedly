@@ -23,6 +23,8 @@ def test_directive_simple():
             break
     assert passed
 
+# TODO bad user input on restricted stuff like align
+
 
 @pytest.mark.parametrize("url", ['http://embed.ly', ])
 @pytest.mark.parametrize("via", ['http://viaurl1.com', 'http://viaurl2.com'])

@@ -40,10 +40,6 @@ Overview
     :alt: PyPI Package latest release
     :target: https://pypi.python.org/pypi/pelican-embedly
 
-.. |commits-since| image:: https://img.shields.io/github/commits-since/euri10/python-pelican_embedly/v0.1.0.svg
-    :alt: Commits since latest release
-    :target: https://github.com/euri10/python-pelican_embedly/compare/v0.1.0...master
-
 .. |wheel| image:: https://img.shields.io/pypi/wheel/pelican-embedly.svg
     :alt: PyPI Wheel
     :target: https://pypi.python.org/pypi/pelican-embedly
