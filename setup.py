@@ -24,7 +24,7 @@ def read(*names, **kwargs):
 
 setup(
     name='pelican-embedly',
-    version='0.1.0',
+    version='0.2.0',
     license='BSD license',
     description='embed.ly cards for Pelican blog',
     long_description='%s\n%s' % (
