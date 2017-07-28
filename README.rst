@@ -58,7 +58,7 @@ Overview
 
 .. end-badges
 
-embed.ly cards for Pelican blog
+embed.ly cards for Pelican blog, version 0.1.0
 
 * Free software: BSD license
 
