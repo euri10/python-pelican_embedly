@@ -60,6 +60,9 @@ Overview
 
 embed.ly cards for Pelican blog, version 0.2.0
 
+from the excellent work of https://github.com/josh146/embedly_cards, I just added some options and tests but the layout
+comes from there.
+
 * Free software: BSD license
 
 Installation
@@ -81,19 +84,3 @@ To run the all tests run::
 
     tox
 
-Note, to combine the coverage data from all the tox environments run:
-
-.. list-table::
-    :widths: 10 90
-    :stub-columns: 1
-
-    - - Windows
-      - ::
-
-            set PYTEST_ADDOPTS=--cov-append
-            tox
-
-    - - Other
-      - ::
-
-            PYTEST_ADDOPTS=--cov-append tox
