@@ -72,6 +72,22 @@ Installation
 
     pip install pelican-embedly
 
+Usage
+=====
+
+Create a card with the `.. embedly-card::` directive.
+Options to further customize the card mimics those described in their documentation [#embedlydoc]_
+All you have to do is to use the directove and the keywords in their docs minus the `data-card-` prefix
+For instance should you want to use a card with a dark theme aligned to the right, use it this way:
+
+.. code::
+
+    .. embedly-card::
+        :align: right
+        :theme: dark
+
+.. [#embedlydoc] http://docs.embed.ly/v1.0/docs/cards
+
 Documentation
 =============
 
