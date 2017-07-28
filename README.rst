@@ -15,6 +15,10 @@ Overview
     * - package
       - | |version| |wheel| |supported-versions| |supported-implementations|
 
+.. |version| image:: https://img.shields.io/pypi/v/python-pelican_embedly.svg
+    :alt: PyPI Package latest release
+    :target: https://pypi.python.org/pypi/pelican_embedly
+
 .. |docs| image:: https://readthedocs.org/projects/python-pelican_embedly/badge/?style=flat
     :target: https://readthedocs.org/projects/python-pelican_embedly
     :alt: Documentation Status
